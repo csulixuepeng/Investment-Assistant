@@ -1,0 +1,49 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# LangChain Core
+langchain-core>=0.1.0
+langchain>=0.1.0
+
+# LangChain Integrations
+langchain-openai>=0.1.0
+langchain-community>=0.0.1
+
+# LangGraph
+langgraph>=0.1.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Type hints
+typing-extensions>=4.5.0
+
+# Optional: For evaluations
+langsmith>=0.1.0
+
+# Optional: For graph visualization
+graphviz>=0.20.0
+
+# Additional packages
+langgraph-supervisor
+langgraph-cli[inmem]
+langgraph-sdk
+langgraph-checkpoint-sqlite
+langchain-experimental
+notebook
+langchain-chroma
+azure-identity
+scikit-learn
+openevals
+openai
+ipython
+pyppeteer
+langchain-anthropic
+langchain-google-vertexai
+langgraph-swarm
+langchain-together
+tavily-python
